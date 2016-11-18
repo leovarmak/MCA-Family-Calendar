@@ -2,10 +2,10 @@ html, body {
   margin: 0;
   height: 100%;
   font-family: sans-serif;
-  background-image: url("../bg.jpg");
+  background-image: url("../bg-minimal.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 1280px;
+  background-size: 642px;
   background-position: center;
   overflow: hidden;
 }
@@ -21,7 +21,7 @@ html, body {
   /*font-family: 'Arimo', sans-serif;*/
   font-family: Avenir !important;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   line-height: 4rem;
   color: black;
   text-align: center;
@@ -30,7 +30,7 @@ html, body {
   width: 4rem; height: 4rem;
   border: 1px solid;
   border-color: rgba(255,255,255,0);
-  border-radius: 50%;
+  border-radius: 20%;
   transition: 200ms ease-in-out;
 }
 .week {
@@ -49,21 +49,21 @@ html, body {
   background: orange;
 }
 .bday {
-  font-family: 'Arimo', sans-serif;
+  font-family: Avenir !important;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   line-height: 4rem;
-  color: white;
+  color: black;
   text-align: center;
   box-sizing: border-box;
   display: inline-block;
   width: 4rem; height: 4rem;
-  border: 1px solid;
-  border-color: rgba(255,255,255,0);
-  border-radius: 50%;
+  /*border: 1px solid;*/
+  /*border-color: rgba(255,255,255,0);*/
+  /*border-radius: 50%;*/
   transition: 200ms ease-in-out;
   background: url('../hover.png');
-  background-size: 70px;
+  background-size: 57px;
   background-repeat: no-repeat;
 
 }
