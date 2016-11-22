@@ -11,7 +11,7 @@ html, body {
 }
 .calender {
   margin: 22rem auto;
-  width: 18rem; height: 2rem;
+  width: 20rem; height: 2rem;
   padding: 1rem;
   border-radius: 3rem;
   /*background: #404476;*/
@@ -27,10 +27,14 @@ html, body {
   text-align: center;
   box-sizing: border-box;
   display: inline-block;
-  width: 2.5rem; height: 3rem;
+  width: 2.8rem; height: 2.8rem;
   border: 1px solid;
   border-color: rgba(255,255,255,0);
-  border-radius: 0%;
+  /*border-radius: 80%;*/
+  -webkit-border-top-left-radius: 200px;
+  -webkit-border-top-right-radius: 200px;
+  -webkit-border-bottom-right-radius: 200px;
+  -webkit-border-bottom-left-radius: 200px;
   transition: 200ms ease-in-out;
 }
 .week {
@@ -57,7 +61,7 @@ html, body {
   text-align: center;
   box-sizing: border-box;
   display: inline-block;
-  width: 2.5rem; height: 3rem;
+  width: 2.8rem; height: 2.8rem;
   /*border: 1px solid;*/
   /*border-color: rgba(255,255,255,0);*/
   /*border-radius: 50%;*/
@@ -76,9 +80,13 @@ html, body {
   text-align: center;
   box-sizing: border-box;
   display: inline-block;
-  width: 2.5rem; height: 3rem;
+  width: 2.8rem; height: 2.8rem;
   border: 1px solid;
   border-color: rgba(255,255,255,0);
-  border-radius: 50%;
+  /*border-radius: 50%;*/
+  -webkit-border-top-left-radius: 200px;
+  -webkit-border-top-right-radius: 200px;
+  -webkit-border-bottom-right-radius: 200px;
+  -webkit-border-bottom-left-radius: 200px;
   transition: 200ms ease-in-out;
 }
