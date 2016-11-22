@@ -68,9 +68,8 @@ html, body {
 
 }
 
-.day1 {
+.daysnottocount {
   font-family: 'Arimo', sans-serif;
-  /*cursor: pointer;*/
   font-size: 1.2rem;
   line-height: 4rem;
   color: black;
