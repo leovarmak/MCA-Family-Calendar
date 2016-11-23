@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   height: 100%;
-  font-family: sans-serif;
+  font-family: Avenir !important;
   background-image: url("../bg-minimal.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -30,11 +30,11 @@ html, body {
   width: 2.8rem; height: 2.8rem;
   border: 1px solid;
   border-color: rgba(255,255,255,0);
-  /*border-radius: 80%;*/
-  -webkit-border-top-left-radius: 200px;
+  border-radius: 50%;
+  /*-webkit-border-top-left-radius: 200px;
   -webkit-border-top-right-radius: 200px;
   -webkit-border-bottom-right-radius: 200px;
-  -webkit-border-bottom-left-radius: 200px;
+  -webkit-border-bottom-left-radius: 200px;*/
   transition: 200ms ease-in-out;
 }
 .week {
