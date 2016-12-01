@@ -2,10 +2,9 @@ html, body {
   margin: 0;
   height: 100%;
   font-family: Avenir !important;
-  background-image: url("../bg-minimal.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 642px;
+  background-size: 643px;
   background-position: center;
   overflow: hidden;
 }
@@ -66,8 +65,8 @@ html, body {
   /*border-color: rgba(255,255,255,0);*/
   /*border-radius: 50%;*/
   transition: 200ms ease-in-out;
-  background: url('../hover.png');
-  background-size: 43px;
+  background: url('../img/hover.png');
+  background-size: 44px;
   background-repeat: no-repeat;
 
 }
