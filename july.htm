@@ -105,8 +105,19 @@
   <div class="not day"></div>
   <div class="not day"></div>
   <div class="not day"></div> -->
-</div>
-  
-  
+</div>  
 </body>
+<script type="text/javascript">
+  document.onkeydown = function (e) { 
+  e = e || window.event; 
+  var charCode = (e.charCode) ? e.charCode : e.keyCode;
+
+  if (charCode == 37) {
+    window.location = "https://leovarmak.github.io/MCA-Family-Calendar/june.htm";
+  }
+  else if (charCode == 39) {
+    window.location = "https://leovarmak.github.io/MCA-Family-Calendar/aug.htm";
+  }
+  };
+</script>
 </html>
