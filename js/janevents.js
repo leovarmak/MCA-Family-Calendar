@@ -12,7 +12,7 @@ $(document).ready(function(){
             swal({
                 title: "Mr. KS Yoganandh",
                 text: "🎂 Birthday",
-                imageUrl: "./img/people/Yoganandh.jpg",
+                imageUrl: "./img/people/yoganandh.jpg",
                 confirmButtonColor: '#3085d6',
                 confirmButtonText: 'Close'
               });
