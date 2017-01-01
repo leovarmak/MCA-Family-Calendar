@@ -79,7 +79,7 @@ $(document).ready(function(){
                 swal({
                 title: "Mrs. Hema Alamelu",
                 text: "🎂 Birthday",
-                imageUrl: "./img/people/shema.jpg",
+                imageUrl: "./img/people/hema.jpg",
                 confirmButtonColor: '#3085d6',
                 confirmButtonText: 'Close'
               });
