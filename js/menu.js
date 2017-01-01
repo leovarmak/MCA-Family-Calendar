@@ -9,7 +9,7 @@ $(document).ready(function () {
         else  {
             $('#navigator').animate({left: '-250px'}, 350); 
             $(this).animate({left: '0px'}, 350);
-            $('.menu-text').animate({left: '35px'}, 350).empty().text("Month");
+            $('.menu-text').animate({left: '35px'}, 350).empty().text("Months");
 
         } 
 	});
