@@ -29,7 +29,7 @@ $(document).ready(function(){
                         Push.create('Mr. MSNN Santosh Birthday 🎂', {
                             body: 'Don\'t forget to wish them',
                             icon: 'https://github.com/leovarmak/MCA-Family-Calendar/blob/master/img/people/santosh.jpg?raw=true',
-                            timeout: 8000,
+                            timeout: 20000,
                             onClick: function () {
                                 this.close();
                             },
@@ -52,7 +52,7 @@ $(document).ready(function(){
                         Push.create('Mr. Mr KS Yognandh Birthday 🎂', {
                             body: 'Don\'t forget to wish them',
                             icon: 'https://github.com/leovarmak/MCA-Family-Calendar/blob/master/img/people/yoganandh.jpg?raw=true',
-                            timeout: 8000,
+                            timeout: 20000,
                             onClick: function () {
                                 this.close();
                             },
@@ -92,7 +92,7 @@ $(document).ready(function(){
                         Push.create('Mr. Ameet & Mrs. Sonal Anniversary 💍', {
                             body: 'Don\'t forget to wish them',
                             icon: 'https://github.com/leovarmak/MCA-Family-Calendar/blob/master/img/people/ameetsonal.jpg?raw=true',
-                            timeout: 8000,
+                            timeout: 20000,
                             onClick: function () {
                                 this.close();
                             },
@@ -112,7 +112,7 @@ $(document).ready(function(){
                         Push.create('Mr. G.R. Hari & Mrs. H. Anitha Anniversary 💍', {
                             body: 'Don\'t forget to wish them',
                             icon: 'https://github.com/leovarmak/MCA-Family-Calendar/blob/master/img/people/harianitha.jpg?raw=true',
-                            timeout: 8000,
+                            timeout: 20000,
                             onClick: function () {
                                 this.close();
                             },
