@@ -25,6 +25,21 @@ $(document).ready(function(){
                 $("#10").addClass("presentday");
             } else if (n == 11) {
                 $("#11").addClass("presentday");
+                function doSomething() {
+                        Push.create('Mr. MSNN Santosh Birthday 🎂', {
+                            body: 'Don\'t forget to wish them',
+                            icon: 'https://github.com/leovarmak/MCA-Family-Calendar/blob/master/img/people/santosh.jpg?raw=true',
+                            timeout: 4000,
+                            onClick: function () {
+                                this.close();
+                            },
+                        vibrate: [200, 100, 200, 100, 200, 100, 200]
+                    });
+                };
+                        
+                                    doSomething();
+                                    setInterval(doSomething, 1000 * 60 * 60  * 3);
+              
             } else if (n == 12) {
                 $("#12").addClass("presentday");
             } else if (n == 13) {
@@ -33,6 +48,20 @@ $(document).ready(function(){
                 $("#14").addClass("presentday");
             } else if (n == 15) {
                 $("#15").addClass("presentday");
+                function doSomething() {
+                        Push.create('Mr. Mr KS Yognandh Birthday 🎂', {
+                            body: 'Don\'t forget to wish them',
+                            icon: 'https://github.com/leovarmak/MCA-Family-Calendar/blob/master/img/people/yoganandh.jpg?raw=true',
+                            timeout: 8000,
+                            onClick: function () {
+                                this.close();
+                            },
+                        vibrate: [200, 100, 200, 100, 200, 100, 200]
+                    });
+                };
+                        
+                                    doSomething();
+                                    setInterval(doSomething, 1000 * 60 * 60  * 3);
             } else if (n == 16) {
                 $("#16").addClass("presentday");
             } else if (n == 17) {
@@ -59,12 +88,40 @@ $(document).ready(function(){
                 $("#27").addClass("presentday");
             } else if (n == 28) {
                 $("#28").addClass("presentday");
+                function doSomething() {
+                        Push.create('Mr. Ameet & Mrs. Sonal Anniversary 💍', {
+                            body: 'Don\'t forget to wish them',
+                            icon: 'https://github.com/leovarmak/MCA-Family-Calendar/blob/master/img/people/ameetsonal.jpg?raw=true',
+                            timeout: 8000,
+                            onClick: function () {
+                                this.close();
+                            },
+                        vibrate: [200, 100, 200, 100, 200, 100, 200]
+                    });
+                };
+                        
+                                    doSomething();
+                                    setInterval(doSomething, 1000 * 60 * 60  * 3);
             } else if (n == 29) {
                 $("#29").addClass("presentday");
             } else if (n == 30) {
                 $("#30").addClass("presentday");
             } else if (n == 31) {
                 $("#31").addClass("presentday");
+                unction doSomething() {
+                        Push.create('Mr. G.R. Hari & Mrs. H. Anitha Anniversary 💍', {
+                            body: 'Don\'t forget to wish them',
+                            icon: 'https://github.com/leovarmak/MCA-Family-Calendar/blob/master/img/people/harianitha.jpg?raw=true',
+                            timeout: 8000,
+                            onClick: function () {
+                                this.close();
+                            },
+                        vibrate: [200, 100, 200, 100, 200, 100, 200]
+                    });
+                };
+                        
+                                    doSomething();
+                                    setInterval(doSomething, 1000 * 60 * 60  * 3);
             }
 
 
