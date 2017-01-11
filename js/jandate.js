@@ -108,7 +108,7 @@ $(document).ready(function(){
                 $("#30").addClass("presentday");
             } else if (n == 31) {
                 $("#31").addClass("presentday");
-                unction doSomething() {
+                function doSomething() {
                         Push.create('Mr. G.R. Hari & Mrs. H. Anitha Anniversary 💍', {
                             body: 'Don\'t forget to wish them',
                             icon: 'https://github.com/leovarmak/MCA-Family-Calendar/blob/master/img/people/harianitha.jpg?raw=true',
