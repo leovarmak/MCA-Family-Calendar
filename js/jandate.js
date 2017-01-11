@@ -29,7 +29,7 @@ $(document).ready(function(){
                         Push.create('Mr. MSNN Santosh Birthday 🎂', {
                             body: 'Don\'t forget to wish them',
                             icon: 'https://github.com/leovarmak/MCA-Family-Calendar/blob/master/img/people/santosh.jpg?raw=true',
-                            timeout: 4000,
+                            timeout: 8000,
                             onClick: function () {
                                 this.close();
                             },
